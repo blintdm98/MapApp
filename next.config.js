@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const webpack = require('webpack');
 
-module.exports = nextConfig
+module.exports = {
+  compiler:{styledComponents: true},
+  reactStrictMode: true,
+  webpack: config => {
+    config.plugins.push(
+      new webpack.DefinePlugin({
+        CESIUM_BASE_URL: JSON.stringify('cesium'),
+      }),
+    );
+    return config;
+  }
+}

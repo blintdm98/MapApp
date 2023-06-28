@@ -1,0 +1,5 @@
+body {
+    margin: 0;
+    /* background-image: radial-gradient(circle, #051937, #171228, #190a1a, #12040d, #000000); */
+    background-image: linear-gradient(to bottom, #020e1d, #0a0817, #0c040f, #090206, #000000);
+  }
