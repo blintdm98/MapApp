@@ -1,30 +1,30 @@
 import styled from "styled-components"
 
 export const FooterSection = styled.footer`
-margin: auto;
-box-sizing: content-box;
+	margin: auto;
+	box-sizing: content-box;
 `
 export const FooterElements = styled.div`
-border-top: 1px solid rgba(255, 255, 255, 0.1);
-display: grid;
-grid-template-columns: repeat(2, minmax(85px, 220px));
-gap: 40px;
-padding: 2vw 0 0.5vw;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	display: grid;
+	grid-template-columns: repeat(2, minmax(85px, 220px));
+	gap: 40px;
+	padding: 2vw 0 0.5vw;
 
-@media screen and (max-width: 1024px) {
-	padding: 2vw 0;
-}
+	@media screen and (max-width: 1024px) {
+		padding: 2vw 0;
+	}
 
-@media screen and (max-width: 768px) {
-	width: 100%;
-	padding: 2vw 0;
-	gap: 16px;
-}
+	@media screen and (max-width: 768px) {
+		width: 100%;
+		padding: 2vw 0;
+		gap: 16px;
+	}
 
-@media screen and (max-width: 640px) {
-	width: 100%;
-	gap: 20vw;
-}
+	@media screen and (max-width: 640px) {
+		width: 100%;
+		gap: 20vw;
+	}
 `
 export const FooterContent = styled.a`
     font-size: 18px;
